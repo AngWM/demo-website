@@ -85,7 +85,7 @@ app.use(passport.initialize());
 app.use(passport.session());
 app.use(flash());
 app.use((req, res, next) => {
-    lusca.csrf()(req, res, next)
+  lusca.csrf()(req, res, next);
 });
 app.use(lusca.xframe('SAMEORIGIN'));
 app.use(lusca.xssProtection(true));
