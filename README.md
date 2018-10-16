@@ -1,5 +1,7 @@
 # Autoauth demo website
 
+[![Build Status](https://travis-ci.org/cs3235-autoauth/demo-website.svg?branch=master)](https://travis-ci.org/cs3235-autoauth/demo-website)
+
 This repository contains a demo website built with Node.js, Express and MongoDB. It has both the ability to create accounts using a username and password, as well as with Autoauth.
 
 ## Table of contents
